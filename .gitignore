@@ -1,0 +1,22 @@
+# ESP-IDF build artifacts
+/build/
+/sdkconfig
+sdkconfig.old
+*.bin
+*.elf
+*.map
+*.o
+*.log
+
+# Backup / temp files
+*.swp
+*.swo
+*.tmp
+*~
+.DS_Store
+
+# CMake / ESP-IDF temporary
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+compile_commands.json
